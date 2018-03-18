@@ -1,7 +1,8 @@
-package com.innopolis.sergeypinkevich.smallhub
+package com.innopolis.sergeypinkevich.smallhub.feature.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.innopolis.sergeypinkevich.smallhub.R
 
 class MainActivity : AppCompatActivity() {
 
