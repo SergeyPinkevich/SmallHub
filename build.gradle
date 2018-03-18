@@ -1,7 +1,22 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.2.10'
+    ext {
+        kotlin_version = '1.1.4-3'
+        support_version = '27.1.0'
+        dagger_version = '2.11'
+        rx_java_version = '2.1.0'
+        rx_android_version = '2.0.1'
+        retrofit_version = '2.3.0'
+        room_version = '1.0.0'
+        moxy_version = '1.5.3'
+        toasty_version = '1.2.8'
+        picasso_version = '2.5.2'
+        espresso_version = '3.0.1'
+        constraint_layout_version = '1.0.2'
+        junit_version = '4.12'
+        test_runner_version = '1.0.1'
+    }
     repositories {
         google()
         jcenter()
@@ -19,6 +34,8 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://maven.google.com' }
+        maven { url "https://jitpack.io" }
     }
 }
 
