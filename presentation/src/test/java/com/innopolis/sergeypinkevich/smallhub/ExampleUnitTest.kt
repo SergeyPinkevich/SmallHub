@@ -1,4 +1,4 @@
-package com.innopolis.sergeypinkevich.smallhub
+package com.innopolis.sergeypinkevich.domain
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.innopolis.sergeypinkevich.smallhub
+package com.innopolis.sergeypinkevich.domain
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
