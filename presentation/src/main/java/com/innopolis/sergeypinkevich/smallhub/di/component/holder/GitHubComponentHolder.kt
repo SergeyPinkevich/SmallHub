@@ -6,9 +6,8 @@ import com.innopolis.sergeypinkevich.domain.di.component.GitHubComponent
 /**
  * @author Sergey Pinkevich
  */
-class GitHubComponentHolder(
-        applicationComponentHolder: ApplicationComponentHolder
-) : SingleComponentHolder<ApplicationComponent, GitHubComponent>(applicationComponentHolder) {
+class GitHubComponentHolder(applicationComponentHolder: ApplicationComponentHolder)
+    : SingleComponentHolder<ApplicationComponent, GitHubComponent>(applicationComponentHolder) {
 
     override fun provideInternal(parentComponent: ApplicationComponent): GitHubComponent {
         return parentComponent

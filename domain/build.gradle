@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 27
@@ -32,6 +33,7 @@ dependencies {
 
     implementation "io.reactivex.rxjava2:rxjava:$rx_java_version"
     implementation "io.reactivex.rxjava2:rxandroid:$rx_android_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
 }
 repositories {
     mavenCentral()
