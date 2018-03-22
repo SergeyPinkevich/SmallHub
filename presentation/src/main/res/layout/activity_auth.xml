@@ -5,6 +5,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/main_blue"
     tools:context="com.innopolis.sergeypinkevich.smallhub.feature.auth.AuthActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/github"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_elements_start"/>
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="@dimen/activity_authentication_edit_text_width"
+        android:layout_height="@dimen/activity_authentication_edit_text_height"
+        android:layout_gravity="center"
+        android:hint="@string/hint_login"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/activity_authentication_padding"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_logo" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="@dimen/activity_authentication_edit_text_width"
+        android:layout_height="@dimen/activity_authentication_edit_text_height"
+        android:layout_marginTop="16dp"
+        android:focusableInTouchMode="true"
+        android:hint="@string/hint_password"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/activity_authentication_padding"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login"/>
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="@dimen/activity_authentication_button_width"
+        android:layout_height="@dimen/activity_authentication_button_height"
+        android:layout_marginTop="20dp"
+        android:text="@string/sign_in_button"
+        android:background="@color/light_blue"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/login_elements_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
 
 </android.support.constraint.ConstraintLayout>

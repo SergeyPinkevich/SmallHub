@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.innopolis.sergeypinkevich.smallhub.feature.auth.AuthActivity">
+        <activity android:name="com.innopolis.sergeypinkevich.smallhub.feature.auth.AuthActivity"
+            android:theme="@style/AuthMaterialTheme">
         </activity>
     </application>
 
