@@ -2,6 +2,7 @@ package com.innopolis.sergeypinkevich.domain.di.component.holder
 
 import android.content.Context
 import com.innopolis.sergeypinkevich.domain.di.component.ApplicationComponent
+import com.innopolis.sergeypinkevich.domain.di.component.DaggerApplicationComponent
 import com.innopolis.sergeypinkevich.smallhub.di.component.holder.LoginComponentHolder
 
 /**

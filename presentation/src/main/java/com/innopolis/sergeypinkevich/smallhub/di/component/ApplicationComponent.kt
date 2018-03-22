@@ -10,6 +10,7 @@ import dagger.Component
  * @author Sergey Pinkevich
  */
 @ApplicationScope
+@Component
 interface ApplicationComponent {
 
     fun gitHubComponentHolder(): GitHubComponent.Builder
