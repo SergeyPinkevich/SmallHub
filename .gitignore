@@ -57,11 +57,3 @@ freeline/
 freeline_project_description.json
 
 .idea/vcs.xml
-app/libs/
-domain/libs/
-domain/src/main/java/
-domain/src/main/res/drawable/
-data/libs/
-data/src/main/java/
-data/src/main/res/drawable/
-presentation/libs/
